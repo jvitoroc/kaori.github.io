@@ -52,4 +52,23 @@
     section {
         padding: 40px 0 40px 0;
     }
+
+    .howitworks .card {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .howitworks .icon {
+        left: 90%;
+        top: 75%;
+    }
+    
+    .howitworks .icon.left {
+        left: -15%;
+        top: 40%;
+    }
+
+    .icon {
+        width: 50px;
+    }
 }

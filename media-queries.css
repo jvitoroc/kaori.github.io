@@ -7,6 +7,10 @@
 }
 
 @media (max-width: 991px) {
+    header {
+        font-size: 0.8em;
+    }
+
     .arrow-right {
         display: none;
     }

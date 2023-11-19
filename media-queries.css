@@ -2,6 +2,10 @@
     display: none;
 }
 
+.hide-desktop {
+    display: none !important;
+}
+
 @media (max-width: 991px) {
     .arrow-right {
         display: none;
@@ -19,7 +23,33 @@
        display: none;
     }
 
-    .course .column {
-        padding: 50px 0;
+    .column {
+        margin-bottom: 80px;
+    }
+
+    .howitworks .row {
+        margin-bottom: 0 !important;
+    }    
+
+    .hide-mobile {
+        display: none !important;
+    }
+    
+    .hide-desktop {
+        display: inherit !important;
+    }
+
+    .howitworks .arrow {
+        width: 100px;
+        transform: rotate(90deg);
+        position: static;
+    }
+
+    .watchaclass {
+        margin-top: 40px;
+    }
+
+    section {
+        padding: 40px 0 40px 0;
     }
 }

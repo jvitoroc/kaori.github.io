@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Moontime';
+    src: url('fonts/moontime.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Sunflower';
+    src: url('fonts/Sunflower-Light.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Sunflower';
+    color: #B0002E;
+}
+
+header {
+    text-align: center;
+    padding: 85px 0;
+}
+
+.title {
+    font-size: 6em;
+    font-family: 'Moontime';
+    font-weight: normal;
+    color: #F4A3B8;
+}
+
+.subtitle {
+    margin-top: -5px;
+    font-size: 2em;
+    color: #F4A3B8;
+}
+
+.center {
+    width: 960px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section .body {
+    padding: 50px 0;
+}
+
+section:nth-of-type(odd) {
+    background-color: rgba(219, 144, 116, 0.10);
+    box-shadow: 0px 4px 250px 0px #FFF inset;
+}
+
+section h3 {
+    text-align: center;
+    color: #E94E77;
+    text-shadow: 2px 2px 0px #F4A3B8;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.bio-photo {
+    width: 275px;
+    height: 275px;
+    background-image: url('imgs/leticia.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.bio .arrow-right {
+    width: 160px;
+}
+
+.bio .body > * {
+    flex-basis: 33.3%;
+}
+
+.bio .description {
+    transform: rotate(15deg);
+    background-color: rgba(255, 197, 213, 0.30);
+    line-height: normal;
+    font-size: 1.1em;
+}
+
+.bio .description p {
+    transform: rotate(-15deg);
+}
+
+.star {
+    position: absolute;
+    left: 50%;
+    top: 240px;
+}

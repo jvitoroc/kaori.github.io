@@ -1,0 +1,25 @@
+.arrow-down {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .arrow-right {
+        display: none;
+    }
+
+    .arrow-down {
+        display: initial;
+    }
+
+    .arrow-container {
+        padding: 60px 0;
+    }
+
+    .arrow-curved {
+       display: none;
+    }
+
+    .course .column {
+        padding: 50px 0;
+    }
+}

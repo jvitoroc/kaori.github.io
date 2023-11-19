@@ -1,40 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teacher Letícia</title>
-    <link rel="stylesheet" href="bootstrap-grid.min.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+  </head>
+  <body>
     <main>
-        <header class="center">
-            <h1 class="title">Teacher Leticia</h1>
-            <h2 class="subtitle">ENGLISH CLASSES</h2>
-        </header>
-        <section class="bio">
-            <div class="center">
-                <h3>QUEM SOU<br>EU?</h3>
-                <div class="body d-flex justify-content-evenly">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div class="bio-photo"></div>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img class="arrow-right" src="imgs/arrow-right.png">
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div class="description">
-                            <p>
-                                Bem-vindo ao meu espaço de aprendizado de inglês! Sou a Professora Leticia Kaori Ono, e estou animada para começar essa jornada linguística personalizada ao seu lado. Aqui, cada aula é adaptada às suas necessidades, explorando não apenas gramática, mas também a riqueza cultural do inglês. Com métodos inovadores, estou pronta para tornar o aprendizado envolvente e enriquecedor. Pronto para começar? Let’s dive in!
-                            </p>
-                            <img class="star" src="imgs/star.svg">
-                        </div>
-                    </div>
+      <header class="center">
+        <h1 class="title">Teacher Leticia</h1>
+        <h2 class="subtitle">ENGLISH CLASSES</h2>
+      </header>
+      <section class="bio">
+        <div class="center">
+          <h3>QUEM SOU<br />EU?</h3>
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-lg-4 d-flex justify-content-center align-items-center"
+              >
+                <div class="bio-photo"></div>
+              </div>
+              <div
+                class="arrow-container col-lg-4 d-flex justify-content-center align-items-center"
+              >
+                <img class="arrow-right" src="imgs/arrow-right.png" />
+                <img class="arrow-down" src="imgs/arrow-down.png" />
+              </div>
+              <div
+                class="col-lg-4 d-flex justify-content-center align-items-center"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <p>
+                      Bem-vindo ao meu espaço de aprendizado de inglês! Sou a
+                      Professora Leticia Kaori Ono, e estou animada para começar
+                      essa jornada linguística personalizada ao seu lado. Aqui,
+                      cada aula é adaptada às suas necessidades, explorando não
+                      apenas gramática, mas também a riqueza cultural do inglês.
+                      Com métodos inovadores, estou pronta para tornar o
+                      aprendizado envolvente e enriquecedor. Pronto para
+                      começar? Let’s dive in!
+                    </p>
+                  </div>
+                  <img class="star" src="imgs/star.svg" />
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+        <img class="arrow-curved" src="imgs/arrow-curved.png" />
+      </section>
+      <section class="course">
+        <div class="center">
+          <h3>O CURSO</h3>
+          <div class="container">
+            <div class="row">
+              <div
+                class="column col-lg-4 d-flex justify-content-center align-items-center"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Personalizado</h4>
+                    <p>
+                      Aulas alinhadas com os interesses, gostos e objetivos do
+                      aluno!
+                    </p>
+                    <img class="icon" src="imgs/settings-sliders.svg" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="column col-lg-4 d-flex justify-content-center align-items-center"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <h4>PRATICO</h4>
+                    <p>
+                      Sem necessidade de comprar material didatico. Tudo online!
+                    </p>
+                    <img class="icon" src="imgs/globe.svg" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="column col-lg-4 d-flex justify-content-center align-items-center"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Lorem Ipsum</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit..
+                    </p>
+                    <img class="icon" src="imgs/settings-sliders.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="watchaclass col d-flex justify-content-center align-items-center flex-column"
+              >
+                <p>Veja por você mesmo agora mesmo!</p>
+                <button class="button">ASSISTA UMA AULA</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="howitworks">
+        <div class="center">
+          <h3>COMO<br />FUNCIONA?</h3>
+          <div class="container">
+            <div class="row">
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Entrevista</h4>
+                    <p>
+                      Numa conversa, compreendo seus objetivos e interesses
+                      pessoais para personalização das aulas.
+                    </p>
+                    <img class="icon" src="imgs/phone.svg" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              >
+                <img class="arrow-1 arrow" src="imgs/arrow-curved-2.png" />
+              </div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              ></div>
+            </div>
+            <div class="row">
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              ></div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              >
+                <img class="arrow-2 arrow" src="imgs/arrow-right.png" />
+              </div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Nivelagem</h4>
+                    <p style="left: 15px; position: relative">
+                      Avaliamos seu conhecimento de inglês e definimos seu nível
+                      CEFR.
+                    </p>
+                    <img class="icon left" src="imgs/ruler.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <h4>PLANEJAMENTO</h4>
+                    <p>
+                      Definimos quanto tempo será necessário para atingir seu
+                      objetivo, e quantas aulas por semana serão necessárias.
+                    </p>
+                    <img
+                      class="icon"
+                      style="transform: rotate(30deg)"
+                      src="imgs/notebook.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              >
+                <img class="arrow-1 arrow" src="imgs/arrow-curved-2.png" />
+              </div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              ></div>
+            </div>
+            <div class="row">
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              ></div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              >
+                <img class="arrow-2 arrow" src="imgs/arrow-right.png" />
+              </div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Montagem</h4>
+                    <p style="left: 15px; position: relative">
+                      Eu preparo aulas exclusivas e alinhadas com seu interesse
+                      com seu gostos e objetivos.
+                    </p>
+                    <img
+                      class="icon left"
+                      style="transform: rotate(345deg); left: -18%"
+                      src="imgs/pencil-brush.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <h4>INÍCIO DAS AULAS</h4>
+                    <p style="position: relative; left: -20px">
+                      Nos encontramos todas as semanas durante sua jornada para o topo!
+                    </p>
+                    <img
+                      class="icon"
+                      style="left: 90%;"
+                      src="imgs/talk.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              ></div>
+              <div
+                class="col d-flex justify-content-center align-items-center flex-column"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>

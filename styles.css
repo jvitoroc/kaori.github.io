@@ -4,12 +4,22 @@
 }
 
 @font-face {
-    font-family: 'Sunflower';
+    font-family: 'SunflowerLight';
     src: url('fonts/Sunflower-Light.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'SunflowerBold';
+    src: url('fonts/Sunflower-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SunflowerMedium';
+    src: url('fonts/Sunflower-Medium.ttf') format('truetype');
+}
+
 body {
-    font-family: 'Sunflower';
+    font-family: 'SunflowerLight';
     color: #B0002E;
 }
 
@@ -31,17 +41,8 @@ header {
     color: #F4A3B8;
 }
 
-.center {
-    width: 960px;
-    margin: 0 auto;
-}
-
 section {
-    padding: 20px 0;
-}
-
-section .body {
-    padding: 50px 0;
+    padding: 40px 0 60px 0;
 }
 
 section:nth-of-type(odd) {
@@ -56,6 +57,18 @@ section h3 {
     font-size: 2em;
     font-weight: 300;
     line-height: normal;
+    margin-bottom: 70px;
+}
+
+/* BIO */
+
+.bio {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.bio .container {
+    max-width: 960px;
 }
 
 .bio-photo {
@@ -70,23 +83,118 @@ section h3 {
     width: 160px;
 }
 
+.bio .arrow-down {
+    height: 100px;
+}
+
 .bio .body > * {
     flex-basis: 33.3%;
 }
 
-.bio .description {
-    transform: rotate(15deg);
+.star {
+    position: absolute;
+    left: 80%;
+    top: 85%;
+}
+
+.arrow-curved {
+    width: 160px;
+    position: absolute;
+    transform: scaleY(-1) rotate(210deg);
+    right: 200px;
+    bottom: -40px;
+}
+
+/* CARD */
+
+.card {
+    transform: rotate(7deg);
     background-color: rgba(255, 197, 213, 0.30);
     line-height: normal;
     font-size: 1.1em;
+    max-width: 304px;
+    text-align: center;
 }
 
-.bio .description p {
-    transform: rotate(-15deg);
+.card .card-body {
+    transform: rotate(-7deg);
 }
 
-.star {
+.card h4 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'SunflowerMedium';
+}
+
+/* COURSE SECTION */
+.course .card {
+    padding: 10px 0;
+}
+
+.course .card p {
+    position: relative;
+    left: -30px;
+}
+
+.icon {
     position: absolute;
-    left: 50%;
-    top: 240px;
+    left: 80%;
+    top: 70%;
+}
+
+.watchaclass {
+    margin-top: 120px;
+}
+
+.watchaclass .button {
+    margin-top: 10px;
+}
+
+/* BUTTON */
+
+.button {
+    background-color: rgba(216, 0, 56, 0.70);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'SunflowerMedium';
+    font-size: 1.1em;
+}
+
+/* HOW IT WORKS */
+
+.howitworks .icon {
+    left: 85%;
+    top: 75%;
+}
+
+.howitworks .icon.left {
+    left: -10%;
+    top: 40%;
+}
+
+.arrow {
+    width: 250px;
+}
+
+.arrow-1 {
+    transform: scaleY(-1) rotate(345deg);
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+.arrow-2 {
+    transform: rotate(160deg);
+    position: relative;
+    top: 100px;
+    left: -10px;
+}
+
+.howitworks .row:not(:last-of-type) {
+    margin-bottom: 120px;
+}
+
+.howitworks .container {
+    max-width: 900px;
 }
